@@ -1,0 +1,110 @@
+body {
+  font-family: 'Odibee+Sans';
+  color: #0a0001;
+  background-image: url("img/배경사진.jpg");
+  background-color: rgb(53, 62, 71);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.korea{
+  width: 700px;
+  height: 466px;
+  position: absolute;
+  top: 250px;
+}
+.question {
+  display: none;
+}
+.result {
+  display: none;
+}
+#img {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.main-title {
+  font-size: 14px;
+  color: #7c7c7c;
+}
+.sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #363636;
+}
+.btn-start {
+  font-size: 16px;
+  color: #ff9300;
+  background-color: #1f1f1f;
+  border: #1f1f1f;
+}
+.start-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question-content {
+  font-size: 40px;
+  color:#0a0001;
+}
+.rectangle { 
+  margin: 0 auto;
+}
+.mid-rectangle {
+  margin-bottom: 5%;
+}
+.btn-answer, btn-answer:focus{
+  background-color: rgba(87, 4, 43, 0.397);
+  border: #1f1f1f;
+  width: 288px;
+  margin: 0 auto;
+  font-size: 13px;
+  color:#ffffff;
+  outline: none;
+  box-shadow: none;
+}
+.btn-answer:hover {
+  background-color: #1f1f1f;
+  border: #1f1f1f;
+  width: 288px;
+  margin: 0 auto;
+  font-size: 13px;
+  color:#ffffff;
+}
+
+.progress-bar {
+  background-color: aqua;
+}
+.progress {
+  background-color: #525764;
+}
+.updown-slash {
+  width: 300px;
+  margin:0 auto;
+}
+.result-message {
+  color: #1f1f1f;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 600;
+}
+.result-player {
+  font-size: 20px;
+  font-weight: 500;
+  color: #363636;
+}
+.result-explain {
+  font-size: 25px;
+  font-weight: 800;
+  color: #363636;
+}
+.share {
+  margin:0 auto;
+}
